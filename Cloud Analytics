@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T10:40:16.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-TnNPgrib0xgnSmnftJz" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T10:54:32.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="arqKTx6TlfEL7aUQtKwl" version="20.8.20" type="github">
   <diagram name="Page-1" id="3abgrRnzk7dHKZwuFGKK">
     <mxGraphModel dx="1434" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-1" value="On-Premise" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#858B94;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#858B94;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="149" y="240" width="320" height="361" as="geometry" />
+          <mxGeometry x="128" y="197" width="488" height="479" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-2" value="CAMBRIDGE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="277" y="610" width="91" height="26" as="geometry" />
@@ -13,8 +13,32 @@
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-4" value="VPC" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="712" y="240" width="348" height="359" as="geometry" />
         </mxCell>
-        <mxCell id="DerAEdD4tJ2WQWAnfxd4-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_analytics;fillColor=#AD688B;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="268" y="357" width="90" height="93" as="geometry" />
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-5" value="&lt;ul&gt;&lt;li&gt;Current Applications, need to lift shift or refactor&lt;/li&gt;&lt;li&gt;Data Storage Requirement&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Current Workflow&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62" y="72" width="311" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=1.081;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-6" target="DerAEdD4tJ2WQWAnfxd4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-6" value="1. Customer Upload data" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#067F68;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.transfer_for_sftp_resource;" vertex="1" parent="1">
+          <mxGeometry x="165" y="548" width="76" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-8" target="DerAEdD4tJ2WQWAnfxd4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-8" value="2. Transfer and decrypt data" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="256" y="389" width="80" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-9" target="DerAEdD4tJ2WQWAnfxd4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-9" value="&lt;span style=&quot;text-align: start; white-space: normal; font-family: Calibri, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Data processing and Analytics&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start; white-space: normal;&quot;&gt;&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="422" y="361" width="144" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-10" target="DerAEdD4tJ2WQWAnfxd4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-10" value="4. Transfer with Results" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="316" y="247" width="80" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
