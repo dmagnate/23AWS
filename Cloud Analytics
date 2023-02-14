@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T11:11:57.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YcxJdsDw4ShjdDdnMU0_" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T11:13:35.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="N_lMSlQOJsG_DNmRaHXn" version="20.8.20" type="github">
   <diagram name="Page-1" id="3abgrRnzk7dHKZwuFGKK">
     <mxGraphModel dx="1434" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-2" value="&lt;b&gt;CAMBRIDGE&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="331" y="684" width="92" height="26" as="geometry" />
+          <mxGeometry x="377" y="789" width="92" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-5" value="&lt;ul&gt;&lt;li&gt;Current Applications, need to lift shift or refactor&lt;/li&gt;&lt;li&gt;Data Storage Requirement&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Current Workflow&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="62" y="72" width="311" height="79" as="geometry" />
@@ -14,22 +14,39 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-6" value="1. Customer Upload data" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#067F68;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.transfer_for_sftp_resource;" vertex="1" parent="1">
-          <mxGeometry x="159" y="563" width="76" height="78" as="geometry" />
+          <mxGeometry x="199" y="617" width="76" height="78" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-8" target="DerAEdD4tJ2WQWAnfxd4-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
-          <mxGeometry x="251" y="371" width="80" height="74" as="geometry" />
+          <mxGeometry x="335" y="372" width="80" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-9" target="DerAEdD4tJ2WQWAnfxd4-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-9" value="&lt;span style=&quot;text-align: start; white-space: normal; font-family: Calibri, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Data processing and Analytics&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start; white-space: normal;&quot;&gt;&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="422" y="361" width="144" height="94" as="geometry" />
+          <mxGeometry x="816" y="362" width="144" height="94" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-15" target="DerAEdD4tJ2WQWAnfxd4-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-15" value="2. Transfer&amp;nbsp;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataServer;strokeColor=#5E5E5E;aspect=fixed;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="354" y="504" width="80.07" height="69" as="geometry" />
+          <mxGeometry x="514" y="507.5" width="80.07" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-18" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="473" y="195" width="80" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DerAEdD4tJ2WQWAnfxd4-21" target="DerAEdD4tJ2WQWAnfxd4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DerAEdD4tJ2WQWAnfxd4-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/business-and-finance-20/200/vector_65_01-128.png;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="25" y="496" width="92" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
