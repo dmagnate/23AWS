@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T11:09:05.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XNjz33GLVQ-4zs1_HAUz" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T11:11:57.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YcxJdsDw4ShjdDdnMU0_" version="20.8.20" type="github">
   <diagram name="Page-1" id="3abgrRnzk7dHKZwuFGKK">
     <mxGraphModel dx="1434" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-2" value="&lt;b&gt;CAMBRIDGE&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="331" y="684" width="92" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="DerAEdD4tJ2WQWAnfxd4-4" value="VPC" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="712" y="240" width="348" height="359" as="geometry" />
         </mxCell>
         <mxCell id="DerAEdD4tJ2WQWAnfxd4-5" value="&lt;ul&gt;&lt;li&gt;Current Applications, need to lift shift or refactor&lt;/li&gt;&lt;li&gt;Data Storage Requirement&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Current Workflow&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="62" y="72" width="311" height="79" as="geometry" />
